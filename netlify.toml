@@ -3,9 +3,9 @@ command = "npm run build"
 publish = ".next"
 
 [[redirects]]
-from = "/_next/image*"
+# from = "/_next/image*"
 # from = "https://melodious-rugelach-38894a.netlify.app/_next/image*"
-# from = "https://main--melodious-rugelach-38894a.netlify.app/_next/image*"
+from = "https://main--melodious-rugelach-38894a.netlify.app/_next/image*"
 to = "/_ipx/w_:width,q_:quality/:url"
 status = 301
 
