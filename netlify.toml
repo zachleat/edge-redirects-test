@@ -16,3 +16,7 @@ status = 301
 from = "/_ipx/*"
 to = "/.netlify/builders/_ipx"
 status = 200
+
+[[edge_functions]]
+path = "/_next/image"
+function = "ipx"
